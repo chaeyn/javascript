@@ -20,3 +20,8 @@ console.log(daysOfWeek[5]);
 daysOfWeek.push('sun');
 
 console.log(daysOfWeek);
+
+const toBuy = ['potato', 'tomato'];
+toBuy.push('kimch');
+console.log(toBuy);
+console.log(toBuy[2]);
