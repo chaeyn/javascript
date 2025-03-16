@@ -1,6 +1,9 @@
 const calculator = {
-  add: function (a, b) {
+  plus: function (a, b) {
     console.log(a + b);
+  },
+  times: function (a, b) {
+    console.log(a * b);
   },
   minus: function (a, b) {
     console.log(a - b);
@@ -8,12 +11,13 @@ const calculator = {
   divide: function (a, b) {
     console.log(a / b);
   },
-  square: function (a, b) {
+  power: function (a, b) {
     console.log(a ** b);
   },
 };
 
-calculator.add(5, 8);
+calculator.plus(5, 8);
+calculator.times(5, 8);
 calculator.minus(5, 8);
 calculator.divide(5, 8);
-calculator.square(5, 8);
+calculator.power(5, 8);
