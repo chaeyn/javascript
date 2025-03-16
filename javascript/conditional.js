@@ -10,6 +10,8 @@ if (isNaN(age) || age < 0) {
   console.log('you can drink');
 } else if (age > 50 && age <= 80) {
   console.log('you should exercise');
+} else if (age === 100) {
+  console.log('wow you are wise');
 } else if (age > 80) {
   console.log('you can do whatever you want');
 }
