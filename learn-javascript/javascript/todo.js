@@ -51,3 +51,7 @@ if (savedToDos !== null) {
     toDos = parsedToDos;
     parsedToDos.forEach(paintToDo);
 }
+
+function Filter() {
+    return
+}
