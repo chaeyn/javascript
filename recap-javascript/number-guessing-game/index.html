@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>숫자 맞추기 게임</title>
+  </head>
+  <body>
+    <h1>숫자 맞추기 게임</h1>
+    <p>
+      1부터 100까지의 수 중에서 랜덤으로 생성된 수를 맞추세요. 10번의 기회가
+      주어지고, 당신이 제출한 숫자가 정답보다 큰지 작은지 알려줍니다.
+    </p>
+    <div class="form">
+      <label for="guessField">정답을 입력하세요: </label>
+      <input
+        type="number"
+        min="1"
+        max="100"
+        required
+        id="guessField"
+        class="guessField"
+      />
+      <input type="submit" value="정답을 입력하세요" class="guessSubmit" />
+    </div>
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
