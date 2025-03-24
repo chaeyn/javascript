@@ -11,12 +11,12 @@ body {
 }
 h2 {
     font-size: 60px;
-    color: black;
+    color: #ffffff;
     font-weight: bold;
 }
 h1 {
     font-size: 70px;
-    color: black;
+    color: #ffffff;
     font-weight: bold;
 }
 .background {
@@ -32,14 +32,27 @@ h1 {
 .login-form {
     position: relative; z-index: 2;
     font-size: 32px;
-    color: black;
+    color: #ffffff;
     font-weight: bold;
     font-family: 'Noto Sans KR', serif;
     text-align: center;
     margin-bottom: 60px;
     background: none;
+    outline: none;
+    border: none;
 }
 .login-form:focus {
     outline: none;
     border: none;
+}
+#quote {
+    color: white;
+}
+#weather-container {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    text-align: right;
+    color: white;
 }
