@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 .hidden {
     display: none;
+}
+
+body {
+    font-family: "Noto Sans KR", serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h2 {
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+h1 {
+    font-size: 70px;
+    color: black;
+    font-weight: bold;
+}
+.background {
+    width: 100vw; /* 화면 너비에 맞게 */
+    height: 100vh; /* 화면 높이에 맞게 */
+    object-fit: cover; /* 이미지 비율 유지하며 꽉 채우기 */
+    position: fixed; /* 고정 배경처럼 동작 */
+    top: 0;
+    left: 0;
+    z-index: -999; /* 다른 요소들 뒤로 보내기 */
+}
+
+.login-form {
+    position: relative; z-index: 2;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', serif;
+    text-align: center;
+    margin-bottom: 60px;
+    background: none;
+}
+.login-form:focus {
+    outline: none;
+    border: none;
 }
