@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        /* 미디어 쿼리 */
+        @media (max-width: 768px) {
+            table {
+                width: 100%;
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            table {
+                font-size: 12px;
+            }
+
+            th, td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>Breakpoint prefix</th>
+        <th>Minimum width</th>
+        <th>CSS</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>`sm`</td>
+        <td>640px</td>
+        <td>`@media (min-width: 640px) { ... }`</td>
+    </tr>
+    <tr>
+        <td>`md`</td>
+        <td>768px</td>
+        <td>`@media (min-width: 768px) { ... }`</td>
+    </tr>
+    <tr>
+        <td>`lg`</td>
+        <td>1024px</td>
+        <td>`@media (min-width: 1024px) { ... }`</td>
+    </tr>
+    <tr>
+        <td>`xl`</td>
+        <td>1280px</td>
+        <td>`@media (min-width: 1280px) { ... }`</td>
+    </tr>
+    <tr>
+        <td>`2xl`</td>
+        <td>1536px</td>
+        <td>`@media (min-width: 1536px) { ... }`</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
