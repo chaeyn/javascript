@@ -1,4 +1,4 @@
-# Learn-Javascript 
+# Momentum
 ## [노마드코더 강의](https://nomadcoders.co/javascript-for-beginners)를 통해 Javascript의 기본적인 개념을 학습했습니다.
 
 ### 배운 개념
