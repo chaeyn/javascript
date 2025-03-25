@@ -1,64 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
 
 body {
-    font-family: "Noto Sans KR", serif;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  font-family: "Noto Sans KR", serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 h2 {
-    font-size: 60px;
-    font-weight: bold;
-    color: #ffffff;
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+  user-select: none;
 }
-h2:hover,
-h1:hover {
-    cursor: default;
-}
+
 h1 {
-    font-size: 70px;
-    font-weight: bold;
-    color: #ffffff;
+  font-size: 70px;
+  font-weight: bold;
+  color: #ffffff;
+  user-select: none;
 }
 .hidden {
-    display: none;
+  display: none;
 }
 .background {
-    width: 100vw; /* 화면 너비에 맞게 */
-    height: 100vh; /* 화면 높이에 맞게 */
-    object-fit: cover; /* 이미지 비율 유지하며 꽉 채우기 */
-    position: fixed; /* 고정 배경처럼 동작 */
-    top: 0;
-    left: 0;
-    z-index: -999; /* 다른 요소들 뒤로 보내기 */
+  width: 100vw; /* 화면 너비에 맞게 */
+  height: 100vh; /* 화면 높이에 맞게 */
+  object-fit: cover; /* 이미지 비율 유지하며 꽉 채우기 */
+  position: fixed; /* 고정 배경처럼 동작 */
+  top: 0;
+  left: 0;
+  z-index: -999; /* 다른 요소들 뒤로 보내기 */
 }
 .login-form {
-    position: relative; z-index: 2;
-    font-size: 32px;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 60px;
-    background: none;
-    outline: none;
-    border: none;
+  position: relative;
+  z-index: 2;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 60px;
+  background: none;
+  outline: none;
+  border: none;
 }
 .login-form:focus {
-    outline: none;
-    border: none;
+  outline: none;
+  border: none;
 }
 .button-class {
-    border: 0;
-    background: transparent;
+  border: 0;
+  background: transparent;
 }
 #quote {
-    color: white;
+  color: white;
 }
 #weather-container {
-    display: flex;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    text-align: right;
-    color: white;
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  text-align: right;
+  color: white;
 }
